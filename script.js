@@ -1,6 +1,5 @@
 const container =  document.querySelector('.container');
 let userSelection;
-console.log('base', userSelection);
 
 let btn = document.querySelector('.btn')
     btn.addEventListener('click',resetLayout)
