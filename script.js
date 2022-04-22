@@ -18,7 +18,7 @@ let btn = document.querySelector('.btn')
       
     }
    let createLayout = (userSelection) => {
-        let h = `${(500 / userSelection)}px`;
+        let h = `${(500/ userSelection)}px`;
             for (let i = 0;i <userSelection; i++){
                     let row = document.createElement('div')
                     row.classList.add('row');
@@ -29,6 +29,7 @@ let btn = document.querySelector('.btn')
                             box.classList.add('box');
                             box.style.height = h;
                             box.style.width =h;
+                            console.log(h)
                             box.textContent = j;
                             row.appendChild(box);
                             box.addEventListener("mouseover", function( event ) {
@@ -41,4 +42,4 @@ let btn = document.querySelector('.btn')
             }
 
    }
-   createLayout(userSelection = 16)
+   createLayout(userSelection = 64)

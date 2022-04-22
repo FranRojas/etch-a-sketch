@@ -35,8 +35,8 @@
   margin: auto;
   width: 60%;
   max-width: 500px; 
-  max-height: 500px;
-  border: solid 0.1px black;
+  max-height: 504px;
+  border: solid 1px black;
   font-size: 0;
 }
 .row{
